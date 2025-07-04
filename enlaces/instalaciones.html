@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Instalaciones - Tanatorio Sanlúcar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+.modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal .contenido {
+  position: relative;
+}
+
+.modal img {
+  max-width: 90%;
+  max-height: 90vh;
+  border-radius: 10px;
+}
+
+.modal .cerrar {
+  position: absolute;
+  top: 10px; right: 20px;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+   .galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.imagen {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.4s ease;
+}
+
+.imagen img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.imagen:hover img {
+  transform: scale(1.05);
+}
+
+
+    .descripcion {
+      max-width: 800px;
+      margin: 0 auto 30px;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .volver {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .volver a {
+      background-color: #2c3e50;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .volver a:hover {
+      background-color: #1a252f;
+    }
+  </style>
+</head>
+<body>
+  <script src="/enlaces/instalaciones.js"></script>
+  <header id="inicio">
+    <h1>Nuestras Instalaciones</h1>
+    <p>Un espacio sereno, digno y preparado para acompañar con respeto</p>
+  </header>
+
+  <section class="descripcion">
+    <p>Disponemos de instalaciones modernas y tranquilas, con amplias zonas verdes, salas de velatorio privadas, áreas de descanso, y un entorno cuidadosamente diseñado para ofrecer el máximo confort en los momentos más difíciles.</p>
+  </section>
+
+  <section class="galeria">
+  <div class="imagen"><img src="/img/recepcion.jpeg" alt="Recepción del tanatorio"></div>
+  <div class="imagen"><img src="/img/saladeestar.jpeg" alt="Sala de velatorio"></div>
+  <div class="imagen"><img src="/img/jardin1.jpeg" alt="Jardines exteriores"></div>
+  <div class="imagen"><img src="/img/zonadescanso.jpeg" alt="Zona de descanso familiar"></div>
+</section>
+
+  <div class="volver">
+    <a href="/index.html">⬆️ Volver al inicio</a>
+  </div>
+</body>
+</html>
