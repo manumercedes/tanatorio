@@ -30,7 +30,7 @@
       color: rgb(125, 11, 81);
     }
     .inicio {
-      background-image: url("/img/nsm.jpeg");
+      background-image: url("img/nsm.jpeg");
       background-size: cover;
       background-position: center;
       height: 100vh;
@@ -43,7 +43,7 @@
     } 
     .servicios{
       margin-top: 30px;
-      background-image: url("/img/saladeestar.jpeg");
+      background-image: url("img/saladeestar.jpeg");
       background-size: cover;
       background-position: center;
       height: 100vh;
@@ -56,7 +56,7 @@
     }
     .instalaciones {
       margin-top: 30px;
-      background-image: url("/img/instalaciones.jpeg");
+      background-image: url("img/instalaciones.jpeg");
       background-size: cover;
       background-position: center;
       height: 100vh;
